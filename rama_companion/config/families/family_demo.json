@@ -1,0 +1,9 @@
+{
+  "family_id": "family_demo",
+  "display_name": "The Demo Family",
+  "default_companion": "rama",
+  "api_key": "",
+  "system_prompt_additions": "Write family-specific context here, e.g. who lives in the home, ages, languages spoken, gentle topics to support, topics to avoid, how elders like to be addressed. Edit this file; no code changes needed.",
+  "preferences": {"language": "English", "address_style": "first names, warm and respectful", "topics_to_avoid": "", "notes": ""},
+  "helplines": []
+}

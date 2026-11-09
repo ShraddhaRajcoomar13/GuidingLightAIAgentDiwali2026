@@ -1,0 +1,20 @@
+{
+  "family_id": "family_demo",
+  "models": {"chat": "gpt-4o-mini", "stt": "gpt-4o-mini-transcribe", "tts": "gpt-4o-mini-tts", "embed": "text-embedding-3-small"},
+  "temperature": 0.8,
+  "max_reply_tokens": 260,
+  "max_story_tokens": 480,
+  "history_turns": 10,
+  "voices": {"rama": "ash", "hanuman": "echo"},
+  "tts_instructions": {
+    "rama": "Speak in a calm, warm, unhurried, dignified tone, like a kind elder speaking gently at the end of the day.",
+    "hanuman": "Speak in a warm, cheerful, lively tone with gentle humour and humility, like a loyal friend."
+  },
+  "rag": {"top_k": 5, "min_score": 0.25},
+  "audio": {"silence_ms": 1500, "threshold": 450, "max_seconds": 60},
+  "memory": {"max_per_call": 5, "retrieve_k": 6},
+  "billing_url": "https://platform.openai.com/settings/organization/billing/overview",
+  "theme": "warm",
+  "family_call": {"enabled": true, "window_start": "19:30", "window_end": "19:40", "duration_minutes": 10, "snooze_minutes": 10},
+  "story_chips": ["How Rama's story begins", "Rama's exile", "Sita and Rama in the forest", "Hanuman meets Sita", "The bridge to Lanka", "The return to Ayodhya"]
+}

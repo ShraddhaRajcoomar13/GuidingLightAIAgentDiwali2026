@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Environment files
+.env
+.env.local
+
+# Build output
+dist/
+build/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+#spec files
+Jasmine.pdf
+Rose.pdf
+daisy.pdf
+Tulip.pdf
+Valmiki_Ramayana_Gita_Press.pdf
+daisy.json
+rose.json
+tulip.json
+jasmine.json
+rama_companion/data/ramayana.db
